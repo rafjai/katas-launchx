@@ -1,0 +1,23 @@
+Copy Paste de mi consola
+
+
+C:\Users\rafja>python -m venv env
+
+C:\Users\rafja>env\Scripts\activate
+
+(env) C:\Users\rafja>pip freeze
+python-dateutil==2.8.2
+six==1.16.0
+
+(env) C:\Users\rafja>pip install python-dateutil
+Requirement already satisfied: python-dateutil in c:\users\rafja\env\lib\site-packages (2.8.2)
+Requirement already satisfied: six>=1.5 in c:\users\rafja\env\lib\site-packages (from python-dateutil) (1.16.0)
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 'C:\Users\rafja\env\Scripts\python.exe -m pip install --upgrade pip' command.
+
+(env) C:\Users\rafja>pip freeze
+python-dateutil==2.8.2
+six==1.16.0
+
+(env) C:\Users\rafja>deactivate
+C:\Users\rafja>
